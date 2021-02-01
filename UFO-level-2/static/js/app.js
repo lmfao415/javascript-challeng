@@ -13,8 +13,6 @@ data.forEach((ufo) => {
 
 // event actions for submitting filters
 var filterButton = d3.select("#filter-btn");
-var form = d3.select("form");
-form.on("submit", submit);
 filterButton.on("click", submit);
 
 
