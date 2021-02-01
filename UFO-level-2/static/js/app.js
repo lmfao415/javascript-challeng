@@ -88,3 +88,12 @@ console.log(users)
 // });
 
 // console.log(users)
+
+
+// var allkeys = Object.keys(data[0]);
+// var all_values = {};
+// allkeys.forEach(x=>{
+//   data.forEach(y=>{
+//     if (!(x ))
+//   })
+// })
