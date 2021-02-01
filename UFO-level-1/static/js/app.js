@@ -1,8 +1,6 @@
 // from data.js
 var tableData = data;
 
-// YOUR CODE HERE!
-
 // Adds values to table on site
 var tbody = d3.select("tbody");
 data.forEach((ufo) => {
@@ -12,9 +10,11 @@ data.forEach((ufo) => {
       cell.text(value);
     });
   });
+
+  // event actions for submitting filters
 var filterbutton = d3.select("#filter-btn");
 var form = d3.select("form");
-form.on("submit", submit);
+
 filterbutton.on("click", submit);
 
 

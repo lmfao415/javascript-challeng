@@ -1,11 +1,8 @@
 // from data.js
 var tableData = data;
 
-// YOUR CODE HERE!
-
 // Adds values to table on site
 var tbody = d3.select("tbody");
-
 data.forEach((ufo) => {
     var row = tbody.append("tr");
     Object.entries(ufo).forEach(([key, value]) => {
@@ -14,7 +11,7 @@ data.forEach((ufo) => {
     });
   });
 
-
+// event actions for submitting filters
 var filterButton = d3.select("#filter-btn");
 var form = d3.select("form");
 form.on("submit", submit);
@@ -41,9 +38,6 @@ function submit() {
     var inputStateValue = inputState.property("value");
     var inputCountryValue = inputCountry.property("value");
     var inputShapeValue = inputShape.property("value");
-
-
-
 
 
     var filteredDates = data.filter(x => x.datetime === inputDateValue && x.city === inputCityValue && x.state === inputStateValue && x.country === inputCountryValue && x.shape === inputShapeValue);
