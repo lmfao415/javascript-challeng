@@ -1,12 +1,10 @@
-# javascript-challeng
+# Dynamic-JavaScript-Table
 
-This project uses a sample dataset of UFO sightings to create a dynamic table visualization of all the sightings and their associated information. Using JavaScript and D3.js a dynamic table of sightings is created that can be searched through by filtering certain criteria.
+This project uses a sample dataset of UFO sightings to create a dynamic table visualization of all the sightings and their associated information. JavaScript and D3.js are used to build a dynamic table of sightings that can be searched through by filtering criteria.
 
-### Level 1: Automatic Table and Date Search (Required)
+### Level 1: Automatic Table and Date Search
 
-* Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided (we recommend building your own custom page!).
-
-* Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
+* Features a basic HTML web page. able to your web page and then adds new rows of data for each UFO sighting.
 
   * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
 
